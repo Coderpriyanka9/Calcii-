@@ -20,7 +20,7 @@ class Calcii{
 				if(a>b){
 				 System.out.println(+res + " \n a is bigger than b");
 				}else{
-				 System.out.println(+res + " \n Result is negative number");
+				 System.out.println(+res + " is negative number");
 				}
 				break;
 			case 3:
