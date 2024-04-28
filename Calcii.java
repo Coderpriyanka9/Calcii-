@@ -13,33 +13,40 @@ class Calcii{
 		switch(operator){
 			case 1:
 				res=a+b;
+				System.out.println("Result is: " +res);
 				break;
 			case 2:
 				res=a-b;
 				if(a>b){
 				 System.out.println(+res + " \n a is bigger than b");
 				}else{
-				 System.out.println(+res + " \n b is bigger than a");
+				 System.out.println(+res + " \n Result is negative number");
 				}
 				break;
 			case 3:
 				res=a*b;
+				System.out.println("Result is: " +res);
 				break;
 			case 4:
 				if(b>0){
 				res=a/b;
+				System.out.println("Result is: " +res);	
 				}else{
 				 System.out.println("Invalid number");
 				}
 				break;
 			case 5:
+				if(b>0){
 				res=a%b;
+				System.out.println("Result is: " +res);
+				}else{
+				 System.out.println("Result is: Undefined");
+				}
 				break;
 			default:
 				System.out.println("Invalid Operator");
 
 		}
-	   System.out.println("Result is: " +res);
-
+	   
 	}
 }
